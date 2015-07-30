@@ -1,2 +1,4 @@
 # moment-in-rb
-learning moment.js
+
+wip
+will be Moment.JS usage with React-Bootstrap
