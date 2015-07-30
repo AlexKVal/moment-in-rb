@@ -1,0 +1,34 @@
+{
+  "name": "moment-in-rb",
+  "version": "0.0.0",
+  "description": "learning moment.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint",
+    "build": "rm -rf app && mkdir app && cp -r src/*.html app/",
+    "patch": "release patch",
+    "minor": "release minor",
+    "major": "release major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKVal/moment-in-rb.git"
+  },
+  "author": "alexkval",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexKVal/moment-in-rb/issues"
+  },
+  "homepage": "https://github.com/AlexKVal/moment-in-rb#readme",
+  "devDependencies": {
+    "babel": "^5.8.19",
+    "babel-core": "^5.8.19",
+    "babel-eslint": "^4.0.5",
+    "babel-runtime": "^5.8.19",
+    "eslint": "^0.24.1",
+    "eslint-plugin-babel": "^1.2.0",
+    "eslint-plugin-react": "^3.1.0",
+    "mt-changelog": "^0.6.1",
+    "release-script": "^0.2.1"
+  }
+}
