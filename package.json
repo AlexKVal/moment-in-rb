@@ -1,7 +1,7 @@
 {
-  "name": "react-web-app-boilerplate",
+  "name": "moment-in-rb",
   "version": "0.0.0",
-  "description": "React + Webpack + Babel web application boilerplate",
+  "description": "learning moment.js",
   "main": "./src/index.js",
   "scripts": {
     "lint": "eslint --ext .js --ext .jsx .",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexKVal/react-web-app-boilerplate.git"
+    "url": "git+https://github.com/AlexKVal/moment-in-rb.git"
   },
   "keywords": [
     "application",
@@ -27,9 +27,9 @@
   "author": "@alexkval",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AlexKVal/react-web-app-boilerplate/issues"
+    "url": "https://github.com/AlexKVal/moment-in-rb/issues"
   },
-  "homepage": "https://github.com/AlexKVal/react-web-app-boilerplate#readme",
+  "homepage": "https://github.com/AlexKVal/moment-in-rb#readme",
   "devDependencies": {
     "autoprefixer-core": "^5.2.1",
     "babel": "^5.8.19",
