@@ -72,7 +72,9 @@ baseConfig.postcss = function postcss () {
 baseConfig.plugins.push(
   new HtmlWebpackPlugin({
     title: 'Web application',
-    minify: options.production
+    minify: options.production,
+    template: 'src/index.html',
+    inject: 'body'
   })
 )
 
