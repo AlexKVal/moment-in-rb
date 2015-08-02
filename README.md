@@ -1,2 +1,4 @@
-# react-web-app-boilerplate
-React + Webpack + Babel web application boilerplate
+# moment-in-rb
+
+wip
+will be Moment.JS usage with React-Bootstrap
