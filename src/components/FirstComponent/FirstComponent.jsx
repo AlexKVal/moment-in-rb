@@ -1,11 +1,9 @@
 import './FirstComponent.css'
 import React, { PropTypes } from 'react'
+import Row from '../foundationcss/Row'
 
 const FirstComponent = React.createClass({
   propTypes: {
-    /**
-     * Just string value
-     */
     propValue: PropTypes.string
   },
 
@@ -17,7 +15,7 @@ const FirstComponent = React.createClass({
 
   render () {
     return (
-      <div className='row'>
+      <Row>
         <div className='columns'>
           <div className='panel callout'>
             <h4>Raw Date</h4>
@@ -43,13 +41,13 @@ const FirstComponent = React.createClass({
             <h4>Calendar Time</h4>
             <p>calendarTime</p>
           </div>
-          <div className='panel'>
+          <div className='panel callout'>
             <h4>Inspired by</h4>
             <a href='http://sahatyalkabov.com/jsrecipes/#!/backend/formatting-dates'>sahatyalkabov formatting-dates</a>
           </div>
         </div>
 
-      </div>
+      </Row>
     )
   }
 })
