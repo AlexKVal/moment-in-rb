@@ -47,7 +47,7 @@ module.exports = function karmaConfig (config) {
     captureTimeout: 60000,
     browserNoActivityTimeout: 45000,
 
-    browsers: [ process.env.CONTINUOUS_INTEGRATION === 'true' ? 'ChromeTravisCI' : 'Chrome' ],
+    browsers: [ process.env.CONTINUOUS_INTEGRATION === 'true' ? 'ChromeTravisCI' : 'PhantomJS' ],
 
     customLaunchers: {
       ChromeTravisCI: {
