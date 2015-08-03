@@ -3,7 +3,7 @@ import TestUtils from 'react/lib/ReactTestUtils'
 
 import FirstComponent from './FirstComponent'
 
-describe('Component: FirstComponent', () => {
+describe.skip('Component: FirstComponent', () => {
   it('has first-component class', () => {
     const firstComponent = TestUtils.renderIntoDocument(<FirstComponent/>)
     const firstCmpNode = React.findDOMNode(firstComponent)
