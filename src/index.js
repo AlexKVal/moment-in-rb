@@ -2,12 +2,13 @@ import './styles.css'
 
 import React from 'react'
 import Row from './components/foundationcss/Row'
+import Column from './components/foundationcss/Column'
 
 const MainPage = React.createClass({
   render () {
     return (
       <Row>
-        <div className='columns'>
+        <Column>
           <div className='panel callout'>
             <h4>Raw Date</h4>
             <p>rawDate</p>
@@ -36,7 +37,7 @@ const MainPage = React.createClass({
             <h4>Inspired by</h4>
             <a href='http://sahatyalkabov.com/jsrecipes/#!/backend/formatting-dates'>sahatyalkabov formatting-dates</a>
           </div>
-        </div>
+        </Column>
       </Row>
     )
   }
