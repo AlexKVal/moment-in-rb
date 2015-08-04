@@ -4,6 +4,7 @@ import React from 'react'
 import Row from './components/foundationcss/Row'
 import Column from './components/foundationcss/Column'
 import Panel from './components/foundationcss/Panel'
+import CalendarSvg from './components/CalendarSvg'
 
 const MainPage = React.createClass({
   render () {
@@ -11,6 +12,7 @@ const MainPage = React.createClass({
       <Row>
         <Column>
           <Panel callout>
+            <CalendarSvg />
             <h4>Raw Date</h4>
             <p>rawDate</p>
           </Panel>
