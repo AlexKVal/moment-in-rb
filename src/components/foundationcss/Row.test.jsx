@@ -11,7 +11,7 @@ describe('Component: Row', () => {
     assert.equal(node.getAttribute('class'), 'row')
   })
 
-  it('is "div" element', () => {
+  it('is a "div" element', () => {
     const instance = TestUtils.renderIntoDocument(<Row/>)
     assert.equal(React.findDOMNode(instance).nodeName, 'DIV')
   })
