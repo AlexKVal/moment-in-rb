@@ -20,7 +20,7 @@ baseConfig.output = {
 
   // Output path from the view of the page
   // Uses webpack-dev-server in development
-  publicPath: options.production ? '/' : 'http://localhost:8080/',
+  publicPath: options.production ? '' : 'http://localhost:8080/',
 
   // Filename for entry points
   // Only adds hash in build mode

@@ -2,8 +2,12 @@
 
 [![Build Status](https://travis-ci.org/AlexKVal/moment-in-rb.svg?branch=master)](https://travis-ci.org/AlexKVal/moment-in-rb)
 
-wip
-will be Moment.JS usage with React-Bootstrap
+`MomentJS` usage with `React`
+
+```
+> npm run build
+```
+`public` folder is deployed at http://alexkval.github.io/moment-in-rb/
 
 Result should look something like this:
 
