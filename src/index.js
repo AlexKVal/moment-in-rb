@@ -13,11 +13,16 @@ const MainPage = React.createClass({
     let dayOfWeek = moment(now).format('dddd')
     let hoursAgo = moment(now).startOf('day').fromNow()
     let timeFromNow = moment(now).endOf('day').fromNow()
-    let calendarTime = moment(now).subtract('days', 3).calendar()
+    let calendarTime = moment(now).subtract(3, 'days').calendar()
+    let todayFourWays = moment(now).format('d dd ddd dddd')
 
     return (
       <Row>
         <Column>
+          <PanelWithCalendar>
+            <h4>Today d, dd, ddd, dddd</h4>
+            <p>{todayFourWays}</p>
+          </PanelWithCalendar>
           <PanelWithCalendar callout>
             <h4>Raw Date</h4>
             <p>{now.toString()}</p>
