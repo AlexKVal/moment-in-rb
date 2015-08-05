@@ -7,7 +7,7 @@
     "lint": "eslint --ext .js --ext .jsx .",
     "test": "npm run lint && karma start",
     "tdd": "karma start --auto-watch --no-single-run",
-    "build": "webpack --config webpack.config.js --bail -p",
+    "build": "rm -rf public && webpack --config webpack.config.js --bail -p",
     "dev": "open http://localhost:8080 && webpack-dev-server --history-api-fallback --hot --inline --progress",
     "gh-pages": "git push origin `git subtree split --prefix public master`:gh-pages --force",
     "patch": "release patch",
